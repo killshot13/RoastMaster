@@ -1,0 +1,6 @@
+{
+	"watch": ["skill-package"],
+	"ext": ".json",
+	"ignore": [],
+	"exec": "./skill-package/skill.json"
+}

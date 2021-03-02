@@ -1,0 +1,17 @@
+{
+	"parserOptions": {
+		"ecmaVersion": 6
+	},
+	"overrides": [
+		{
+			"files": ["*.yaml", "*.yml"],
+			"parser": "yaml-eslint-parser"
+		},
+		{
+			"files": ["*.json", "*.jsonc"],
+			"parser": "jsonc-eslint-parser"
+		}
+	],
+	"plugins": ["prettier"],
+	"extends": ["eslint:recommended", "prettier"]
+}
